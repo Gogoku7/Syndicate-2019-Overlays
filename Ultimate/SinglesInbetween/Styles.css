@@ -1,0 +1,57 @@
+body
+{
+	width: 1920px;
+	height: 1080px;
+	margin: 0;
+	padding: 0;
+	background-image: url('background.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#slideshow 
+{
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 217px;
+	top: 52px;
+}
+
+#slideshow > div
+{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+#slideshow > div > img
+{
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#startingSoonContainer
+{
+	width: 600px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: absolute;
+	left: 660px;
+	top: 900px;
+	text-align: center;
+	line-height: 100px;
+    align-items: center;
+}
+
+#startingSoonText
+{
+	color: white;
+	font-size: 88px;
+}
